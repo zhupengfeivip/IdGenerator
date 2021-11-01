@@ -80,7 +80,6 @@ export class SnowflakeIdv1 {
      */
     private _OverCostCountInOneTerm
 
-
     /**
      *Creates an instance of Genid.
      * @author zhupengfeivip
@@ -155,6 +154,7 @@ export class SnowflakeIdv1 {
         this._IsOverCost = false
         this._OverCostCountInOneTerm = 0
     }
+
 
     /**
      * 当前序列号超过最大范围，开始透支使用序号号的通知事件，，本项暂未实现
